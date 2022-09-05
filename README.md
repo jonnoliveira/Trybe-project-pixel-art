@@ -17,11 +17,11 @@ _*Coded for google chrome_
 ## 1- RESUME
 
 The objective of this project was to create a frame composed of pixels and a palette of random colors. Two of the main requirements:
-&nbsp;
-*1 - the frame should be able to receive user input corresponding to a new size;
-&nbsp;
-*2 - the pixel should allow the user to paint the frame with the color he selected from the palette;
-&nbsp;
+
+
+1 - the frame should be able to receive user input corresponding to a new size;
+
+2 - the pixel should allow the user to paint the frame with the color he selected from the palette;
 
 I used all the knowledge acquired in JavaScript to apply functions that gave dynamism to the page. Even through JavaScript I was able to manipulate both the HTML elements in order to modify the DOM elements and some CSS style features.
 
