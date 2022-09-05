@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <!-- FONTE -->
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  <title>Projeto Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">
+      Paleta de Cores
+    </h1>
+    <h3>Trybe City</h3>
+    <section id="section-color-palette">
+      <div id="color-palette"></div>
+    </section>
+  </header>
+  <section id="video">
+    <video preload="true" autoplay loop class="bg-video1">
+      <source src="picture/bgPixelsArt.mp4" type="video/mp4">
+    </video>
+    <video preload="true" autoplay loop class="bg-video2">
+      <source src="picture/bgPixelsArt.mp4" type="video/mp4">
+    </video>
+  </section>
+  <div id="bottom-clear-position">
+    <input id="board-size" type="number" min="1" max="200">
+    <button id="generate-board">VQV</button>
+  </div>
+  <main id="main"></main>
+  <script src="script.js"></script>
+</body>
+
+</html>
